@@ -509,4 +509,4 @@ class WP_Job_Manager_Shortcodes {
 	}
 }
 
-new WP_Job_Manager_Shortcodes();
+$GLOBALS['job_manager_shortcodes'] = new WP_Job_Manager_Shortcodes();
